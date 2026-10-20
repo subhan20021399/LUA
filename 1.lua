@@ -1035,7 +1035,7 @@ function _G.InitModMenuTab()
         local AliasMap = require("client.slua.umg.NewSetting.Item.AliasMap")
 
         local StackESPVisual = {
-            { Key = "ModMenu_ESP1", UI = AliasMap.Switcher, Text = "ESP (AUTO SETUP) TELEGRAM @DR_SUBHAN", GetFunc = function() return _G.SUBHAN_BOYConfig.EspVip end, SetFunc = function(c,v) _G.SUBHAN_BOYConfig.EspVip = v return true end },
+            { Key = "ModMenu_ESP1", UI = AliasMap.Switcher, Text = "ESP (AUTO SETUP)", GetFunc = function() return _G.SUBHAN_BOYConfig.EspVip end, SetFunc = function(c,v) _G.SUBHAN_BOYConfig.EspVip = v return true end },
             { Key = "ModMenu_ESP7", UI = AliasMap.Switcher, Text = "ESP WARNING & COUNT", GetFunc = function() return _G.SUBHAN_BOYConfig.Esp7 end, SetFunc = function(c,v) _G.SUBHAN_BOYConfig.Esp7 = v return true end },
             { Key = "ModMenu_ESP2", UI = AliasMap.Switcher, Text = "ESP RANGE", GetFunc = function() return _G.SUBHAN_BOYConfig.EspDistance end, SetFunc = function(c,v) _G.SUBHAN_BOYConfig.EspDistance = v return true end },
             { Key = "ModMenu_ESP4", UI = AliasMap.Switcher, Text = "ESP MARK - 360 Radar", GetFunc = function() return _G.SUBHAN_BOYConfig.EspRadar end, SetFunc = function(c,v) _G.SUBHAN_BOYConfig.EspRadar = v return true end },
