@@ -1112,9 +1112,9 @@ function _G.InitModMenuTab()
             Text= "  ",
             UIKey = "Setting_Page_Privacy",
             Category = {
-                { Key = "Cat_Aimbot_Force", Text= "UR/ROOM-TOUCH AIM", Stack = StackAimbotForce },
-                { Key = "Cat_ESP_Visual", Text= "ESP PLAYER", Stack = StackESPVisual },
-                { Key = "Cat_Magic_Bullet", Text= "MAGIC + HEADSHOT", Stack = StackMagicBullet }
+                { Key = "Cat_Aimbot_Force", Text= "AIMBOT SECTION", Stack = StackAimbotForce },
+                { Key = "Cat_ESP_Visual", Text= "ESP SECTION", Stack = StackESPVisual },
+                { Key = "Cat_Magic_Bullet", Text= "MAGIC BULLET SECTION", Stack = StackMagicBullet }
             }
         }
 
